@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'aggregate'
 
-class SimpleStatsTest < MiniTest::Test
+class SimpleStatsTest < Minitest::Test
 
   def setup
     @stats = Aggregate.new
@@ -117,7 +117,7 @@ class SimpleStatsTest < MiniTest::Test
   end
 end
 
-class LinearHistogramTest < MiniTest::Test
+class LinearHistogramTest < Minitest::Test
   def setup
     @stats = Aggregate.new(0, 32768, 1024)
 

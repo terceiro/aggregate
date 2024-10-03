@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "minitest"
+gem "minitest", "> 5.0.0"
